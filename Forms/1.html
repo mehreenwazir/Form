@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Tasting Event!</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <h1>Tea Tasting Event Registration Form</h1>
+    <img width="1300" height="400" src="redtea.jpg" alt="wow">
+    <form action="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter Your Name "><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email "><br><br>
+    <label for="phone number">Phone Number</label>
+    <input type="number" id="phone number" name="phone number" placeholder="Contact Number "><br><br>
+    <label for="Tea Flavours">Preferred Tea Flavor</label>
+    <select name="Tea Flavours" id="Tea Flavours">
+    <option value="Black Tea">Black Tea</option>
+    <option value="Green Tea">Green Tea</option>
+    <option value="Herbal Tea">Herbal Tea</option>
+    <option value="White Tea">White Tea</option>
+    <option value="Oolong Tea">Oolong Tea</option>
+    <option value="Chamomile Tea">Chamomile Tea</option>
+    <option value="Peppermint Tea">Peppermint Tea</option>
+    <option value="Hibiscus Tea">Hibiscus Tea</option>
+    <option value="Bubble Tea">Bubble Tea</option>
+    </select><br>
+<p>Do you prefer your tea with or without sugar?</p>
+    <input type="radio" id="with Sugar" name="sugar content" value="With Sugar">
+    <label for="with Sugar">With Sugar</label>
+    <input type="radio" id="without Sugar" name="sugar content" value="Without Sugar">
+    <label for="without Sugar">Without Sugar</label><br>
+    <p>Add-ons you enjoy with Tea
+    </p>
+    <label>
+        <input type="checkbox" name="combo" value="Biscuits">Biscuits
+    </label><br>
+    <label">
+     <input type="checkbox" name="combo" value="Dates">Dates
+      </label><br>
+      <label">
+       <input type="checkbox" name="combo" value="cakes">cakes
+    </label><br>
+      <label">
+       <input type="checkbox" name="combo" value="Pastries">Pastries
+    </label><br>
+      <label">
+       <input type="checkbox" name="combo" value="Samosas">Samosas
+    </label><br>
+      <label">
+       <input type="checkbox" name="combo" value="Rusk">Rusk
+    </label><br>
+      <label">
+       <input type="checkbox" name="combo" value="Honeyed Nuts">Honeyed Nuts
+    </label><br>
+      <label">
+       <input type="checkbox" name="combo" value="cheese Sandwiches">cheese Sandwiches
+    </label><br>
+      <label">
+       <input type="checkbox" name="combo" value="Pistachio or Almond Halwa">Pistachio or Almond Halwa
+    </label><br><br>
+    <label for="Event date">Select Event Date: </label>
+    <input type="date" id="Event date" name="Event date" required><br><br>
+    <label for="Special Request">Your Special Request</label><br>
+    <textarea name="Special Request" id="Special Request" rows="5" cols="50"></textarea><br><br>
+    <button type="submit">Submit</button><br><br>
+     </form>
+        <script src="1.js"></script>
+
+</body>
+</html>
